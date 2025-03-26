@@ -30,21 +30,6 @@ const data: Item[] = [
       "The component `RefreshControl` provides pull-to-refresh functionality for a ScrollView or FlatList component. It can be used to refresh the contents of a list or refresh the contents of a page.",
     route: "pull-to-refresh",
   },
-
-  {
-    title: "Notificação Toast",
-    description:
-      "Este exemplo demonstra como usar a biblioteca `react-native-toast-message` para exibir notificações temporárias.",
-    route: "toast-notification",
-    badges: [
-      {
-        label: "react-native-toast-message",
-        variant: "primary",
-      },
-    ],
-  },
-
-
   {
     title: "Swipe to Delete",
     description:
@@ -61,7 +46,6 @@ const data: Item[] = [
       },
     ],
   },
-
   {
     title: "Drag and drop for reordering",
     description:
@@ -95,7 +79,6 @@ const data: Item[] = [
     ],
   },
 ];
-
 
 export default function App() {
   const renderItem = ({ item, index }: RenderItemParams) => (
